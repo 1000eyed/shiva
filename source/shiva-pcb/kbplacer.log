@@ -1,0 +1,2297 @@
+[kbplacer_plugin_action.py:77]: Plugin executed with KiCad version: 7.0.11
+[kbplacer_plugin_action.py:78]: Plugin executed with python version: '3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]'
+[kbplacer_dialog.py:511]: Language: en
+[kbplacer_plugin_action.py:94]: GUI state: {"switch_section": {"annotation": "MX{}", "layout_path": "/home/thousandeyed/Downloads/keyboard-layout (7).json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": true, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}, "template_path": ""}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}, "template_path": ""}]}, "misc_section": {"route_rows_and_columns": true, "template_path": ""}}
+[key_placer.py:64]: Set key 1U distance: 19050000/19050000
+[key_placer.py:426]: Diode info: ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(relative_position=Point(x=5.08, y=3.03), orientation=90.0, side=<Side.BACK: True>), template_path='')
+[key_placer.py:468]: User layout: [[{'c': '#e6e7e8'}, 'Ъ', 'Й', 'Ц', 'У', 'К', 'Е', 'Н', 'Г', 'Ш', 'Щ', 'З', 'Х'], [{'c': '#c3cad6'}, 'Ё', 'Ф', 'Ы', 'В', 'А', 'П', 'Р', 'О', 'Л', 'Д', 'Ж', 'Э'], [{'c': '#edd9b2', 'w': 1.5}, 'Shift', 'Я', 'Ч', 'С', 'М', 'И', 'Т', 'Ь', 'Б', 'Ю', {'x': 0.25, 'w': 1.25, 'h': 2, 'w2': 1.5, 'h2': 1, 'x2': -0.25}, '.'], [{'c': '#b7edb2', 'w': 1.25}, 'Hyper', {'w': 1.25}, 'Super', {'w': 1.25}, 'Meta', {'a': 7, 'w': 2.25}, '', {'w': 1.25}, '', {'w': 1.25}, '', {'a': 4, 'w': 1.25}, 'Meta', 'ROT'], [{'y': 1, 'c': '#c3cad6', 'w': 1.25}, 'Tab', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', {'w': 1.75}, 'Enter'], [{'c': '#edd9b2'}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n.', '>\n,', '?\n/', 'Shift'], [{'w': 1.5}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n.', '>\n,', {'w': 1.5}, '?\n/'], [{'w': 1.75}, 'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n.', '>\n,', {'w': 1.25}, '?\n/'], [{'c': '#b7edb2', 'w': 1.25}, 'Hyper', {'w': 1.25}, 'Super', {'w': 1.25}, 'Meta', {'a': 7, 'w': 2.25}, '', {'w': 2.25}, '', {'a': 4, 'w': 1.25}, 'Meta', {'w': 1.25}, 'Super', {'w': 1.25}, 'Hyper'], [{'w': 1.25}, 'Hyper', 'Super', {'w': 1.25}, 'Meta', {'a': 7, 'w': 2.75}, '', {'w': 2.25}, '', {'a': 4, 'w': 1.25}, 'Meta', 'Super', {'w': 1.25}, 'Hyper']]
+[board_modifier.py:62]: Searching for MX1 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX1 footprint position: (34525000, 34525000)
+[board_modifier.py:62]: Searching for MX2 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX2 footprint position: (53575000, 34525000)
+[board_modifier.py:62]: Searching for MX3 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX3 footprint position: (72625000, 34525000)
+[board_modifier.py:62]: Searching for MX4 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX4 footprint position: (91675000, 34525000)
+[board_modifier.py:62]: Searching for MX5 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX5 footprint position: (110725000, 34525000)
+[board_modifier.py:62]: Searching for MX6 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX6 footprint position: (129775000, 34525000)
+[board_modifier.py:62]: Searching for MX7 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX7 footprint position: (148825000, 34525000)
+[board_modifier.py:62]: Searching for MX8 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX8 footprint position: (167875000, 34525000)
+[board_modifier.py:62]: Searching for MX9 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX9 footprint position: (186925000, 34525000)
+[board_modifier.py:62]: Searching for MX10 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX10 footprint position: (205975000, 34525000)
+[board_modifier.py:62]: Searching for MX11 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX11 footprint position: (225025000, 34525000)
+[board_modifier.py:62]: Searching for MX12 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX12 footprint position: (244075000, 34525000)
+[board_modifier.py:62]: Searching for MX13 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX13 footprint position: (34525000, 53575000)
+[board_modifier.py:62]: Searching for MX14 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX14 footprint position: (53575000, 53575000)
+[board_modifier.py:62]: Searching for MX15 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX15 footprint position: (72625000, 53575000)
+[board_modifier.py:62]: Searching for MX16 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX16 footprint position: (91675000, 53575000)
+[board_modifier.py:62]: Searching for MX17 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX17 footprint position: (110725000, 53575000)
+[board_modifier.py:62]: Searching for MX18 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX18 footprint position: (129775000, 53575000)
+[board_modifier.py:62]: Searching for MX19 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX19 footprint position: (148825000, 53575000)
+[board_modifier.py:62]: Searching for MX20 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX20 footprint position: (167875000, 53575000)
+[board_modifier.py:62]: Searching for MX21 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX21 footprint position: (186925000, 53575000)
+[board_modifier.py:62]: Searching for MX22 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX22 footprint position: (205975000, 53575000)
+[board_modifier.py:62]: Searching for MX23 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX23 footprint position: (225025000, 53575000)
+[board_modifier.py:62]: Searching for MX24 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX24 footprint position: (244075000, 53575000)
+[board_modifier.py:62]: Searching for MX25 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX25 footprint position: (39287500, 72625000)
+[board_modifier.py:62]: Searching for MX26 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX26 footprint position: (63100000, 72625000)
+[board_modifier.py:62]: Searching for MX27 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX27 footprint position: (82150000, 72625000)
+[board_modifier.py:62]: Searching for MX28 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX28 footprint position: (101200000, 72625000)
+[board_modifier.py:62]: Searching for MX29 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX29 footprint position: (120250000, 72625000)
+[board_modifier.py:62]: Searching for MX30 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX30 footprint position: (139300000, 72625000)
+[board_modifier.py:62]: Searching for MX31 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX31 footprint position: (158350000, 72625000)
+[board_modifier.py:62]: Searching for MX32 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX32 footprint position: (177400000, 72625000)
+[board_modifier.py:62]: Searching for MX33 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX33 footprint position: (196450000, 72625000)
+[board_modifier.py:62]: Searching for MX34 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX34 footprint position: (215500000, 72625000)
+[board_modifier.py:62]: Searching for MX35 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX35 footprint position: (241693750, 82150000)
+[board_modifier.py:62]: Searching for MX36 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX36 footprint position: (36906250, 91675000)
+[board_modifier.py:62]: Searching for MX37 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX37 footprint position: (60718750, 91675000)
+[board_modifier.py:62]: Searching for MX38 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX38 footprint position: (84531250, 91675000)
+[board_modifier.py:62]: Searching for MX39 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX39 footprint position: (117868750, 91675000)
+[board_modifier.py:62]: Searching for MX40 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX40 footprint position: (151206250, 91675000)
+[board_modifier.py:62]: Searching for MX41 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX41 footprint position: (175018750, 91675000)
+[board_modifier.py:62]: Searching for MX42 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX42 footprint position: (198831250, 91675000)
+[board_modifier.py:62]: Searching for MX43 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX43 footprint position: (220262500, 91675000)
+[board_modifier.py:62]: Searching for MX44 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX44 footprint position: (36906250, 129775000)
+[board_modifier.py:62]: Searching for MX45 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX45 footprint position: (58337500, 129775000)
+[board_modifier.py:62]: Searching for MX46 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX46 footprint position: (77387500, 129775000)
+[board_modifier.py:62]: Searching for MX47 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX47 footprint position: (96437500, 129775000)
+[board_modifier.py:62]: Searching for MX48 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX48 footprint position: (115487500, 129775000)
+[board_modifier.py:62]: Searching for MX49 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX49 footprint position: (134537500, 129775000)
+[board_modifier.py:62]: Searching for MX50 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX50 footprint position: (153587500, 129775000)
+[board_modifier.py:62]: Searching for MX51 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX51 footprint position: (172637500, 129775000)
+[board_modifier.py:62]: Searching for MX52 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX52 footprint position: (191687500, 129775000)
+[board_modifier.py:62]: Searching for MX53 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX53 footprint position: (210737500, 129775000)
+[board_modifier.py:62]: Searching for MX54 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX54 footprint position: (236931250, 129775000)
+[board_modifier.py:62]: Searching for MX55 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX55 footprint position: (34525000, 148825000)
+[board_modifier.py:62]: Searching for MX56 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX56 footprint position: (53575000, 148825000)
+[board_modifier.py:62]: Searching for MX57 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX57 footprint position: (72625000, 148825000)
+[board_modifier.py:62]: Searching for MX58 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX58 footprint position: (91675000, 148825000)
+[board_modifier.py:62]: Searching for MX59 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX59 footprint position: (110725000, 148825000)
+[board_modifier.py:62]: Searching for MX60 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX60 footprint position: (129775000, 148825000)
+[board_modifier.py:62]: Searching for MX61 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX61 footprint position: (148825000, 148825000)
+[board_modifier.py:62]: Searching for MX62 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX62 footprint position: (167875000, 148825000)
+[board_modifier.py:62]: Searching for MX63 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX63 footprint position: (186925000, 148825000)
+[board_modifier.py:62]: Searching for MX64 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX64 footprint position: (205975000, 148825000)
+[board_modifier.py:62]: Searching for MX65 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX65 footprint position: (225025000, 148825000)
+[board_modifier.py:62]: Searching for MX66 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX66 footprint position: (244075000, 148825000)
+[board_modifier.py:62]: Searching for MX67 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX67 footprint position: (39287500, 167875000)
+[board_modifier.py:62]: Searching for MX68 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX68 footprint position: (63100000, 167875000)
+[board_modifier.py:62]: Searching for MX69 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX69 footprint position: (82150000, 167875000)
+[board_modifier.py:62]: Searching for MX70 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX70 footprint position: (101200000, 167875000)
+[board_modifier.py:62]: Searching for MX71 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX71 footprint position: (120250000, 167875000)
+[board_modifier.py:62]: Searching for MX72 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX72 footprint position: (139300000, 167875000)
+[board_modifier.py:62]: Searching for MX73 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX73 footprint position: (158350000, 167875000)
+[board_modifier.py:62]: Searching for MX74 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX74 footprint position: (177400000, 167875000)
+[board_modifier.py:62]: Searching for MX75 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX75 footprint position: (196450000, 167875000)
+[board_modifier.py:62]: Searching for MX76 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX76 footprint position: (215500000, 167875000)
+[board_modifier.py:62]: Searching for MX77 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX77 footprint position: (239312500, 167875000)
+[board_modifier.py:62]: Searching for MX78 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX78 footprint position: (41668750, 186925000)
+[board_modifier.py:62]: Searching for MX79 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX79 footprint position: (67862500, 186925000)
+[board_modifier.py:62]: Searching for MX80 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX80 footprint position: (86912500, 186925000)
+[board_modifier.py:62]: Searching for MX81 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX81 footprint position: (105962500, 186925000)
+[board_modifier.py:62]: Searching for MX82 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX82 footprint position: (125012500, 186925000)
+[board_modifier.py:62]: Searching for MX83 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX83 footprint position: (144062500, 186925000)
+[board_modifier.py:62]: Searching for MX84 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX84 footprint position: (163112500, 186925000)
+[board_modifier.py:62]: Searching for MX85 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX85 footprint position: (182162500, 186925000)
+[board_modifier.py:62]: Searching for MX86 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX86 footprint position: (201212500, 186925000)
+[board_modifier.py:62]: Searching for MX87 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX87 footprint position: (220262500, 186925000)
+[board_modifier.py:62]: Searching for MX88 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX88 footprint position: (241693750, 186925000)
+[board_modifier.py:62]: Searching for MX89 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX89 footprint position: (36906250, 205975000)
+[board_modifier.py:62]: Searching for MX90 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX90 footprint position: (60718750, 205975000)
+[board_modifier.py:62]: Searching for MX91 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX91 footprint position: (84531250, 205975000)
+[board_modifier.py:62]: Searching for MX92 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX92 footprint position: (117868750, 205975000)
+[board_modifier.py:62]: Searching for MX93 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX93 footprint position: (160731250, 205975000)
+[board_modifier.py:62]: Searching for MX94 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX94 footprint position: (194068750, 205975000)
+[board_modifier.py:62]: Searching for MX95 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX95 footprint position: (217881250, 205975000)
+[board_modifier.py:62]: Searching for MX96 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX96 footprint position: (241693750, 205975000)
+[board_modifier.py:62]: Searching for MX97 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX97 footprint position: (36906250, 225025000)
+[board_modifier.py:62]: Searching for MX98 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX98 footprint position: (58337500, 225025000)
+[board_modifier.py:62]: Searching for MX99 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX99 footprint position: (79768750, 225025000)
+[board_modifier.py:62]: Searching for MX100 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX100 footprint position: (117868750, 225025000)
+[board_modifier.py:62]: Searching for MX101 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX101 footprint position: (165493750, 225025000)
+[board_modifier.py:62]: Searching for MX102 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX102 footprint position: (198831250, 225025000)
+[board_modifier.py:62]: Searching for MX103 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX103 footprint position: (220262500, 225025000)
+[board_modifier.py:62]: Searching for MX104 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting MX104 footprint position: (241693750, 225025000)
+[board_modifier.py:95]: Getting MX1 footprint position: (34525000, 34525000)
+[board_modifier.py:62]: Searching for D1 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D1 footprint position: (39605000, 37555000)
+[board_modifier.py:62]: Searching for ST1 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX2 footprint position: (53575000, 34525000)
+[board_modifier.py:62]: Searching for D2 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D2 footprint position: (58655000, 37555000)
+[board_modifier.py:62]: Searching for ST2 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX3 footprint position: (72625000, 34525000)
+[board_modifier.py:62]: Searching for D3 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D3 footprint position: (77705000, 37555000)
+[board_modifier.py:62]: Searching for ST3 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX4 footprint position: (91675000, 34525000)
+[board_modifier.py:62]: Searching for D4 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D4 footprint position: (96755000, 37555000)
+[board_modifier.py:62]: Searching for ST4 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX5 footprint position: (110725000, 34525000)
+[board_modifier.py:62]: Searching for D5 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D5 footprint position: (115805000, 37555000)
+[board_modifier.py:62]: Searching for ST5 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX6 footprint position: (129775000, 34525000)
+[board_modifier.py:62]: Searching for D6 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D6 footprint position: (134855000, 37555000)
+[board_modifier.py:62]: Searching for ST6 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX7 footprint position: (148825000, 34525000)
+[board_modifier.py:62]: Searching for D7 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D7 footprint position: (153905000, 37555000)
+[board_modifier.py:62]: Searching for ST7 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX8 footprint position: (167875000, 34525000)
+[board_modifier.py:62]: Searching for D8 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D8 footprint position: (172955000, 37555000)
+[board_modifier.py:62]: Searching for ST8 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX9 footprint position: (186925000, 34525000)
+[board_modifier.py:62]: Searching for D9 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D9 footprint position: (192005000, 37555000)
+[board_modifier.py:62]: Searching for ST9 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX10 footprint position: (205975000, 34525000)
+[board_modifier.py:62]: Searching for D10 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D10 footprint position: (211055000, 37555000)
+[board_modifier.py:62]: Searching for ST10 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX11 footprint position: (225025000, 34525000)
+[board_modifier.py:62]: Searching for D11 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D11 footprint position: (230105000, 37555000)
+[board_modifier.py:62]: Searching for ST11 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX12 footprint position: (244075000, 34525000)
+[board_modifier.py:62]: Searching for D12 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D12 footprint position: (249155000, 37555000)
+[board_modifier.py:62]: Searching for ST12 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX13 footprint position: (34525000, 53575000)
+[board_modifier.py:62]: Searching for D13 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D13 footprint position: (39605000, 56605000)
+[board_modifier.py:62]: Searching for ST13 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX14 footprint position: (53575000, 53575000)
+[board_modifier.py:62]: Searching for D14 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D14 footprint position: (58655000, 56605000)
+[board_modifier.py:62]: Searching for ST14 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX15 footprint position: (72625000, 53575000)
+[board_modifier.py:62]: Searching for D15 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D15 footprint position: (77705000, 56605000)
+[board_modifier.py:62]: Searching for ST15 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX16 footprint position: (91675000, 53575000)
+[board_modifier.py:62]: Searching for D16 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D16 footprint position: (96755000, 56605000)
+[board_modifier.py:62]: Searching for ST16 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX17 footprint position: (110725000, 53575000)
+[board_modifier.py:62]: Searching for D17 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D17 footprint position: (115805000, 56605000)
+[board_modifier.py:62]: Searching for ST17 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX18 footprint position: (129775000, 53575000)
+[board_modifier.py:62]: Searching for D18 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D18 footprint position: (134855000, 56605000)
+[board_modifier.py:62]: Searching for ST18 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX19 footprint position: (148825000, 53575000)
+[board_modifier.py:62]: Searching for D19 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D19 footprint position: (153905000, 56605000)
+[board_modifier.py:62]: Searching for ST19 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX20 footprint position: (167875000, 53575000)
+[board_modifier.py:62]: Searching for D20 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D20 footprint position: (172955000, 56605000)
+[board_modifier.py:62]: Searching for ST20 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX21 footprint position: (186925000, 53575000)
+[board_modifier.py:62]: Searching for D21 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D21 footprint position: (192005000, 56605000)
+[board_modifier.py:62]: Searching for ST21 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX22 footprint position: (205975000, 53575000)
+[board_modifier.py:62]: Searching for D22 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D22 footprint position: (211055000, 56605000)
+[board_modifier.py:62]: Searching for ST22 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX23 footprint position: (225025000, 53575000)
+[board_modifier.py:62]: Searching for D23 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D23 footprint position: (230105000, 56605000)
+[board_modifier.py:62]: Searching for ST23 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX24 footprint position: (244075000, 53575000)
+[board_modifier.py:62]: Searching for D24 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D24 footprint position: (249155000, 56605000)
+[board_modifier.py:62]: Searching for ST24 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX25 footprint position: (39287500, 72625000)
+[board_modifier.py:62]: Searching for D25 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D25 footprint position: (44367500, 75655000)
+[board_modifier.py:62]: Searching for ST25 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX26 footprint position: (63100000, 72625000)
+[board_modifier.py:62]: Searching for D26 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D26 footprint position: (68180000, 75655000)
+[board_modifier.py:62]: Searching for ST26 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX27 footprint position: (82150000, 72625000)
+[board_modifier.py:62]: Searching for D27 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D27 footprint position: (87230000, 75655000)
+[board_modifier.py:62]: Searching for ST27 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX28 footprint position: (101200000, 72625000)
+[board_modifier.py:62]: Searching for D28 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D28 footprint position: (106280000, 75655000)
+[board_modifier.py:62]: Searching for ST28 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX29 footprint position: (120250000, 72625000)
+[board_modifier.py:62]: Searching for D29 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D29 footprint position: (125330000, 75655000)
+[board_modifier.py:62]: Searching for ST29 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX30 footprint position: (139300000, 72625000)
+[board_modifier.py:62]: Searching for D30 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D30 footprint position: (144380000, 75655000)
+[board_modifier.py:62]: Searching for ST30 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX31 footprint position: (158350000, 72625000)
+[board_modifier.py:62]: Searching for D31 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D31 footprint position: (163430000, 75655000)
+[board_modifier.py:62]: Searching for ST31 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX32 footprint position: (177400000, 72625000)
+[board_modifier.py:62]: Searching for D32 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D32 footprint position: (182480000, 75655000)
+[board_modifier.py:62]: Searching for ST32 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX33 footprint position: (196450000, 72625000)
+[board_modifier.py:62]: Searching for D33 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D33 footprint position: (201530000, 75655000)
+[board_modifier.py:62]: Searching for ST33 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX34 footprint position: (215500000, 72625000)
+[board_modifier.py:62]: Searching for D34 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D34 footprint position: (220580000, 75655000)
+[board_modifier.py:62]: Searching for ST34 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX35 footprint position: (241693750, 82150000)
+[board_modifier.py:62]: Searching for D35 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D35 footprint position: (246773750, 85180000)
+[board_modifier.py:62]: Searching for ST35 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX36 footprint position: (36906250, 91675000)
+[board_modifier.py:62]: Searching for D36 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D36 footprint position: (41986250, 94705000)
+[board_modifier.py:62]: Searching for ST36 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX37 footprint position: (60718750, 91675000)
+[board_modifier.py:62]: Searching for D37 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D37 footprint position: (65798750, 94705000)
+[board_modifier.py:62]: Searching for ST37 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX38 footprint position: (84531250, 91675000)
+[board_modifier.py:62]: Searching for D38 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D38 footprint position: (89611250, 94705000)
+[board_modifier.py:62]: Searching for ST38 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX39 footprint position: (117868750, 91675000)
+[board_modifier.py:62]: Searching for D39 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D39 footprint position: (122948750, 94705000)
+[board_modifier.py:62]: Searching for ST39 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX40 footprint position: (151206250, 91675000)
+[board_modifier.py:62]: Searching for D40 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D40 footprint position: (156286250, 94705000)
+[board_modifier.py:62]: Searching for ST40 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX41 footprint position: (175018750, 91675000)
+[board_modifier.py:62]: Searching for D41 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D41 footprint position: (180098750, 94705000)
+[board_modifier.py:62]: Searching for ST41 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX42 footprint position: (198831250, 91675000)
+[board_modifier.py:62]: Searching for D42 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D42 footprint position: (203911250, 94705000)
+[board_modifier.py:62]: Searching for ST42 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX43 footprint position: (220262500, 91675000)
+[board_modifier.py:62]: Searching for D43 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D43 footprint position: (225342500, 94705000)
+[board_modifier.py:62]: Searching for ST43 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX44 footprint position: (36906250, 129775000)
+[board_modifier.py:62]: Searching for D44 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D44 footprint position: (41986250, 132805000)
+[board_modifier.py:62]: Searching for ST44 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX45 footprint position: (58337500, 129775000)
+[board_modifier.py:62]: Searching for D45 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D45 footprint position: (63417500, 132805000)
+[board_modifier.py:62]: Searching for ST45 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX46 footprint position: (77387500, 129775000)
+[board_modifier.py:62]: Searching for D46 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D46 footprint position: (82467500, 132805000)
+[board_modifier.py:62]: Searching for ST46 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX47 footprint position: (96437500, 129775000)
+[board_modifier.py:62]: Searching for D47 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D47 footprint position: (101517500, 132805000)
+[board_modifier.py:62]: Searching for ST47 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX48 footprint position: (115487500, 129775000)
+[board_modifier.py:62]: Searching for D48 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D48 footprint position: (120567500, 132805000)
+[board_modifier.py:62]: Searching for ST48 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX49 footprint position: (134537500, 129775000)
+[board_modifier.py:62]: Searching for D49 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D49 footprint position: (139617500, 132805000)
+[board_modifier.py:62]: Searching for ST49 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX50 footprint position: (153587500, 129775000)
+[board_modifier.py:62]: Searching for D50 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D50 footprint position: (158667500, 132805000)
+[board_modifier.py:62]: Searching for ST50 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX51 footprint position: (172637500, 129775000)
+[board_modifier.py:62]: Searching for D51 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D51 footprint position: (177717500, 132805000)
+[board_modifier.py:62]: Searching for ST51 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX52 footprint position: (191687500, 129775000)
+[board_modifier.py:62]: Searching for D52 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D52 footprint position: (196767500, 132805000)
+[board_modifier.py:62]: Searching for ST52 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX53 footprint position: (210737500, 129775000)
+[board_modifier.py:62]: Searching for D53 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D53 footprint position: (215817500, 132805000)
+[board_modifier.py:62]: Searching for ST53 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX54 footprint position: (236931250, 129775000)
+[board_modifier.py:62]: Searching for D54 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D54 footprint position: (242011250, 132805000)
+[board_modifier.py:62]: Searching for ST54 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX55 footprint position: (34525000, 148825000)
+[board_modifier.py:62]: Searching for D55 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D55 footprint position: (39605000, 151855000)
+[board_modifier.py:62]: Searching for ST55 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX56 footprint position: (53575000, 148825000)
+[board_modifier.py:62]: Searching for D56 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D56 footprint position: (58655000, 151855000)
+[board_modifier.py:62]: Searching for ST56 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX57 footprint position: (72625000, 148825000)
+[board_modifier.py:62]: Searching for D57 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D57 footprint position: (77705000, 151855000)
+[board_modifier.py:62]: Searching for ST57 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX58 footprint position: (91675000, 148825000)
+[board_modifier.py:62]: Searching for D58 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D58 footprint position: (96755000, 151855000)
+[board_modifier.py:62]: Searching for ST58 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX59 footprint position: (110725000, 148825000)
+[board_modifier.py:62]: Searching for D59 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D59 footprint position: (115805000, 151855000)
+[board_modifier.py:62]: Searching for ST59 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX60 footprint position: (129775000, 148825000)
+[board_modifier.py:62]: Searching for D60 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D60 footprint position: (134855000, 151855000)
+[board_modifier.py:62]: Searching for ST60 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX61 footprint position: (148825000, 148825000)
+[board_modifier.py:62]: Searching for D61 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D61 footprint position: (153905000, 151855000)
+[board_modifier.py:62]: Searching for ST61 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX62 footprint position: (167875000, 148825000)
+[board_modifier.py:62]: Searching for D62 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D62 footprint position: (172955000, 151855000)
+[board_modifier.py:62]: Searching for ST62 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX63 footprint position: (186925000, 148825000)
+[board_modifier.py:62]: Searching for D63 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D63 footprint position: (192005000, 151855000)
+[board_modifier.py:62]: Searching for ST63 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX64 footprint position: (205975000, 148825000)
+[board_modifier.py:62]: Searching for D64 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D64 footprint position: (211055000, 151855000)
+[board_modifier.py:62]: Searching for ST64 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX65 footprint position: (225025000, 148825000)
+[board_modifier.py:62]: Searching for D65 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D65 footprint position: (230105000, 151855000)
+[board_modifier.py:62]: Searching for ST65 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX66 footprint position: (244075000, 148825000)
+[board_modifier.py:62]: Searching for D66 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D66 footprint position: (249155000, 151855000)
+[board_modifier.py:62]: Searching for ST66 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX67 footprint position: (39287500, 167875000)
+[board_modifier.py:62]: Searching for D67 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D67 footprint position: (44367500, 170905000)
+[board_modifier.py:62]: Searching for ST67 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX68 footprint position: (63100000, 167875000)
+[board_modifier.py:62]: Searching for D68 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D68 footprint position: (68180000, 170905000)
+[board_modifier.py:62]: Searching for ST68 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX69 footprint position: (82150000, 167875000)
+[board_modifier.py:62]: Searching for D69 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D69 footprint position: (87230000, 170905000)
+[board_modifier.py:62]: Searching for ST69 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX70 footprint position: (101200000, 167875000)
+[board_modifier.py:62]: Searching for D70 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D70 footprint position: (106280000, 170905000)
+[board_modifier.py:62]: Searching for ST70 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX71 footprint position: (120250000, 167875000)
+[board_modifier.py:62]: Searching for D71 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D71 footprint position: (125330000, 170905000)
+[board_modifier.py:62]: Searching for ST71 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX72 footprint position: (139300000, 167875000)
+[board_modifier.py:62]: Searching for D72 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D72 footprint position: (144380000, 170905000)
+[board_modifier.py:62]: Searching for ST72 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX73 footprint position: (158350000, 167875000)
+[board_modifier.py:62]: Searching for D73 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D73 footprint position: (163430000, 170905000)
+[board_modifier.py:62]: Searching for ST73 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX74 footprint position: (177400000, 167875000)
+[board_modifier.py:62]: Searching for D74 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D74 footprint position: (182480000, 170905000)
+[board_modifier.py:62]: Searching for ST74 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX75 footprint position: (196450000, 167875000)
+[board_modifier.py:62]: Searching for D75 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D75 footprint position: (201530000, 170905000)
+[board_modifier.py:62]: Searching for ST75 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX76 footprint position: (215500000, 167875000)
+[board_modifier.py:62]: Searching for D76 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D76 footprint position: (220580000, 170905000)
+[board_modifier.py:62]: Searching for ST76 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX77 footprint position: (239312500, 167875000)
+[board_modifier.py:62]: Searching for D77 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D77 footprint position: (244392500, 170905000)
+[board_modifier.py:62]: Searching for ST77 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX78 footprint position: (41668750, 186925000)
+[board_modifier.py:62]: Searching for D78 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D78 footprint position: (46748750, 189955000)
+[board_modifier.py:62]: Searching for ST78 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX79 footprint position: (67862500, 186925000)
+[board_modifier.py:62]: Searching for D79 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D79 footprint position: (72942500, 189955000)
+[board_modifier.py:62]: Searching for ST79 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX80 footprint position: (86912500, 186925000)
+[board_modifier.py:62]: Searching for D80 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D80 footprint position: (91992500, 189955000)
+[board_modifier.py:62]: Searching for ST80 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX81 footprint position: (105962500, 186925000)
+[board_modifier.py:62]: Searching for D81 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D81 footprint position: (111042500, 189955000)
+[board_modifier.py:62]: Searching for ST81 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX82 footprint position: (125012500, 186925000)
+[board_modifier.py:62]: Searching for D82 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D82 footprint position: (130092500, 189955000)
+[board_modifier.py:62]: Searching for ST82 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX83 footprint position: (144062500, 186925000)
+[board_modifier.py:62]: Searching for D83 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D83 footprint position: (149142500, 189955000)
+[board_modifier.py:62]: Searching for ST83 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX84 footprint position: (163112500, 186925000)
+[board_modifier.py:62]: Searching for D84 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D84 footprint position: (168192500, 189955000)
+[board_modifier.py:62]: Searching for ST84 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX85 footprint position: (182162500, 186925000)
+[board_modifier.py:62]: Searching for D85 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D85 footprint position: (187242500, 189955000)
+[board_modifier.py:62]: Searching for ST85 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX86 footprint position: (201212500, 186925000)
+[board_modifier.py:62]: Searching for D86 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D86 footprint position: (206292500, 189955000)
+[board_modifier.py:62]: Searching for ST86 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX87 footprint position: (220262500, 186925000)
+[board_modifier.py:62]: Searching for D87 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D87 footprint position: (225342500, 189955000)
+[board_modifier.py:62]: Searching for ST87 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX88 footprint position: (241693750, 186925000)
+[board_modifier.py:62]: Searching for D88 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D88 footprint position: (246773750, 189955000)
+[board_modifier.py:62]: Searching for ST88 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX89 footprint position: (36906250, 205975000)
+[board_modifier.py:62]: Searching for D89 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D89 footprint position: (41986250, 209005000)
+[board_modifier.py:62]: Searching for ST89 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX90 footprint position: (60718750, 205975000)
+[board_modifier.py:62]: Searching for D90 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D90 footprint position: (65798750, 209005000)
+[board_modifier.py:62]: Searching for ST90 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX91 footprint position: (84531250, 205975000)
+[board_modifier.py:62]: Searching for D91 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D91 footprint position: (89611250, 209005000)
+[board_modifier.py:62]: Searching for ST91 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX92 footprint position: (117868750, 205975000)
+[board_modifier.py:62]: Searching for D92 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D92 footprint position: (122948750, 209005000)
+[board_modifier.py:62]: Searching for ST92 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX93 footprint position: (160731250, 205975000)
+[board_modifier.py:62]: Searching for D93 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D93 footprint position: (165811250, 209005000)
+[board_modifier.py:62]: Searching for ST93 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX94 footprint position: (194068750, 205975000)
+[board_modifier.py:62]: Searching for D94 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D94 footprint position: (199148750, 209005000)
+[board_modifier.py:62]: Searching for ST94 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX95 footprint position: (217881250, 205975000)
+[board_modifier.py:62]: Searching for D95 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D95 footprint position: (222961250, 209005000)
+[board_modifier.py:62]: Searching for ST95 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX96 footprint position: (241693750, 205975000)
+[board_modifier.py:62]: Searching for D96 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D96 footprint position: (246773750, 209005000)
+[board_modifier.py:62]: Searching for ST96 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX97 footprint position: (36906250, 225025000)
+[board_modifier.py:62]: Searching for D97 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D97 footprint position: (41986250, 228055000)
+[board_modifier.py:62]: Searching for ST97 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX98 footprint position: (58337500, 225025000)
+[board_modifier.py:62]: Searching for D98 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D98 footprint position: (63417500, 228055000)
+[board_modifier.py:62]: Searching for ST98 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX99 footprint position: (79768750, 225025000)
+[board_modifier.py:62]: Searching for D99 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D99 footprint position: (84848750, 228055000)
+[board_modifier.py:62]: Searching for ST99 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX100 footprint position: (117868750, 225025000)
+[board_modifier.py:62]: Searching for D100 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D100 footprint position: (122948750, 228055000)
+[board_modifier.py:62]: Searching for ST100 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX101 footprint position: (165493750, 225025000)
+[board_modifier.py:62]: Searching for D101 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D101 footprint position: (170573750, 228055000)
+[board_modifier.py:62]: Searching for ST101 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX102 footprint position: (198831250, 225025000)
+[board_modifier.py:62]: Searching for D102 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D102 footprint position: (203911250, 228055000)
+[board_modifier.py:62]: Searching for ST102 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX103 footprint position: (220262500, 225025000)
+[board_modifier.py:62]: Searching for D103 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D103 footprint position: (225342500, 228055000)
+[board_modifier.py:62]: Searching for ST103 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting MX104 footprint position: (241693750, 225025000)
+[board_modifier.py:62]: Searching for D104 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:82]: Setting D104 footprint position: (246773750, 228055000)
+[board_modifier.py:62]: Searching for ST104 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:62]: Searching for D1 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX1 with D1
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (30125000, 39225000) with pad (39605000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX1:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX1:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX1:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(30125000, 39225000), (26805000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX1:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D1:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7d4d51e1-22f7-4d5d-b23b-afaa6a09cf1f track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D2 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX2 with D2
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (49175000, 39225000) with pad (58655000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX2:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX2:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX2:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(49175000, 39225000), (45855000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX2:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D2:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ff04dd0e-e576-48bf-a562-af37a8cf154e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D3 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX3 with D3
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (68225000, 39225000) with pad (77705000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX3:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX3:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX3:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(68225000, 39225000), (64905000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX3:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fb2268a0-b59a-4a93-8b99-e17520474a1f track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D4 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX4 with D4
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (87275000, 39225000) with pad (96755000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX4:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX4:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX4:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(87275000, 39225000), (83955000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX4:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of f9971f34-8ddf-4ec5-9e23-29caedde8e8a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D5 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX5 with D5
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (106325000, 39225000) with pad (115805000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX5:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX5:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX5:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(106325000, 39225000), (103005000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX5:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 2bb85ece-8978-44fb-b903-8df8c77877be track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D6 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX6 with D6
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (125375000, 39225000) with pad (134855000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX6:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX6:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX6:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(125375000, 39225000), (122055000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX6:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of cc310344-c3bf-4f71-8ddb-473fcf4b5243 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D7 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX7 with D7
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (144425000, 39225000) with pad (153905000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX7:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX7:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX7:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(144425000, 39225000), (141105000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX7:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D7:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 369cf570-54fe-41af-b45b-273c66f0d2cc track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D8 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX8 with D8
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (163475000, 39225000) with pad (172955000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX8:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX8:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX8:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(163475000, 39225000), (160155000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX8:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of eed88928-37dc-4846-a914-7a80bcd30f21 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D9 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX9 with D9
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (182525000, 39225000) with pad (192005000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX9:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX9:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX9:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(182525000, 39225000), (179205000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX9:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D9:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7b43ee4b-c35b-4327-a4a4-d6e336e90446 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D10 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX10 with D10
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (201575000, 39225000) with pad (211055000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX10:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX10:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX10:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(201575000, 39225000), (198255000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX10:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D10:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 6a016bc1-fd24-467e-88cb-7fc595bef87f track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D11 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX11 with D11
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (220625000, 39225000) with pad (230105000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX11:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX11:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX11:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(220625000, 39225000), (217305000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX11:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D11:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 2f7cf394-7c92-4522-9da3-4036e58f5a60 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D12 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX12 with D12
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (239675000, 39225000) with pad (249155000, 35905000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX12:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX12:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX12:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(239675000, 39225000), (236355000, 35905000)]
+[board_modifier.py:264]: Track collide with pad MX12:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D12:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c52ba2c2-b87b-4655-8ba4-be615883b9c3 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D13 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX13 with D13
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (30125000, 58275000) with pad (39605000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX13:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX13:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX13:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(30125000, 58275000), (26805000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX13:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4ef6e1f9-cbb9-403e-b202-117e88bbdde1 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D14 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX14 with D14
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (49175000, 58275000) with pad (58655000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX14:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX14:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX14:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(49175000, 58275000), (45855000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX14:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 38dca275-bc56-488e-a44e-3f6a3f0eb1c4 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D15 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX15 with D15
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (68225000, 58275000) with pad (77705000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX15:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX15:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX15:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(68225000, 58275000), (64905000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX15:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9b017a89-cbb0-48e7-a83f-25ff48c66dc4 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D16 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX16 with D16
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (87275000, 58275000) with pad (96755000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX16:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX16:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX16:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(87275000, 58275000), (83955000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX16:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a77fc4ca-16e5-4464-bff0-b5842c90bd73 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D17 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX17 with D17
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (106325000, 58275000) with pad (115805000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX17:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX17:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX17:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(106325000, 58275000), (103005000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX17:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D17:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of dd545b7a-d790-45e9-b207-ff5b94daecf1 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D18 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX18 with D18
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (125375000, 58275000) with pad (134855000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX18:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX18:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX18:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(125375000, 58275000), (122055000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX18:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9d0c4d8e-2bc8-461e-aae1-3fd1e3d87fa3 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D19 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX19 with D19
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (144425000, 58275000) with pad (153905000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX19:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX19:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX19:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(144425000, 58275000), (141105000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX19:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D19:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of f20ae5ff-270f-47f2-8270-29835037d301 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D20 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX20 with D20
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (163475000, 58275000) with pad (172955000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX20:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX20:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX20:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(163475000, 58275000), (160155000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX20:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D20:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 195ef2c7-1cf4-4f71-b206-37ce433db860 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D21 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX21 with D21
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (182525000, 58275000) with pad (192005000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX21:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX21:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX21:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(182525000, 58275000), (179205000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX21:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D21:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e06e4aaa-5335-4895-95f5-df29bb5ea9ba track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D22 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX22 with D22
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (201575000, 58275000) with pad (211055000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX22:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX22:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX22:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(201575000, 58275000), (198255000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX22:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D22:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9cb85385-ec9f-45bb-9692-efb4e9815bff track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D23 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX23 with D23
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (220625000, 58275000) with pad (230105000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX23:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX23:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX23:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(220625000, 58275000), (217305000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX23:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D23:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 38bf8553-fa11-4f30-b75e-b192e6b62394 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D24 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX24 with D24
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (239675000, 58275000) with pad (249155000, 54955000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX24:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX24:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX24:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(239675000, 58275000), (236355000, 54955000)]
+[board_modifier.py:264]: Track collide with pad MX24:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 2374d752-ccff-4ebc-9eda-fc84a2b9e693 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D25 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX25 with D25
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (34887500, 77325000) with pad (44367500, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX25:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX25:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX25:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(34887500, 77325000), (31567500, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX25:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D25:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 0e49d49b-7180-49bc-8437-8bacf3a0aa19 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D26 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX26 with D26
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (58700000, 77325000) with pad (68180000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX26:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX26:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX26:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(58700000, 77325000), (55380000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX26:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D26:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c69761d5-e7d0-4225-8d4e-31eb84254af8 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D27 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX27 with D27
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (77750000, 77325000) with pad (87230000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX27:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX27:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX27:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(77750000, 77325000), (74430000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX27:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D27:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 6b63e087-2727-4f9a-9670-87390400c54e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D28 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX28 with D28
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (96800000, 77325000) with pad (106280000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX28:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX28:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX28:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(96800000, 77325000), (93480000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX28:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D28:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 0bfa54b5-69d8-415d-aa49-8718bdb2fa3a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D29 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX29 with D29
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (115850000, 77325000) with pad (125330000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX29:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX29:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX29:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(115850000, 77325000), (112530000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX29:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 473d934e-99ac-4ddb-b5d0-444b00c46297 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D30 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX30 with D30
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (134900000, 77325000) with pad (144380000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX30:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX30:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX30:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(134900000, 77325000), (131580000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX30:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 31f1e7e5-42f2-436c-a4cb-60f615c4185a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D31 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX31 with D31
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (153950000, 77325000) with pad (163430000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX31:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX31:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX31:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(153950000, 77325000), (150630000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX31:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D31:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of d6ebd443-fb81-4c67-8f6e-6e1320d14f0b track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D32 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX32 with D32
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (173000000, 77325000) with pad (182480000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX32:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX32:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX32:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(173000000, 77325000), (169680000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX32:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D32:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4f4efd5c-2645-40bd-b15e-7e11da2cd537 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D33 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX33 with D33
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (192050000, 77325000) with pad (201530000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX33:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX33:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX33:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(192050000, 77325000), (188730000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX33:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D33:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7efbb0b1-b42d-4488-ba07-6d33843132ef track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D34 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX34 with D34
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (211100000, 77325000) with pad (220580000, 74005000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX34:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX34:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX34:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(211100000, 77325000), (207780000, 74005000)]
+[board_modifier.py:264]: Track collide with pad MX34:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D34:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fb1cc28f-75ef-4daa-ba3f-9fba056afb74 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D35 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX35 with D35
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (237293750, 86850000) with pad (246773750, 83530000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX35:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX35:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX35:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(237293750, 86850000), (233973750, 83530000)]
+[board_modifier.py:264]: Track collide with pad MX35:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D35:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ec52e519-ac92-4389-91a2-2e967e8c84c6 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D36 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX36 with D36
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (32506250, 96375000) with pad (41986250, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX36:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX36:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX36:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(32506250, 96375000), (29186250, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX36:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D36:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a9f884e6-c715-4d19-9886-a41c1ede4202 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D37 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX37 with D37
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (56318750, 96375000) with pad (65798750, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX37:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX37:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX37:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(56318750, 96375000), (52998750, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX37:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D37:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5d77f913-3d48-4860-a49a-2aa092f42693 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D38 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX38 with D38
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (80131250, 96375000) with pad (89611250, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX38:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX38:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX38:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(80131250, 96375000), (76811250, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX38:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D38:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 8916194a-b333-4447-b94b-d713d3f57156 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D39 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX39 with D39
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (113468750, 96375000) with pad (122948750, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX39:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX39:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX39:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(113468750, 96375000), (110148750, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX39:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D39:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1e8b93c9-727d-4dc5-8f8d-381be64930c1 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D40 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX40 with D40
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (146806250, 96375000) with pad (156286250, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX40:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX40:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX40:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(146806250, 96375000), (143486250, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX40:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D40:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 0afb9c18-470b-4269-8e07-38e5edf5c7f4 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D41 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX41 with D41
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (170618750, 96375000) with pad (180098750, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX41:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX41:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX41:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(170618750, 96375000), (167298750, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX41:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D41:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of f51a0538-0dfa-43ed-bd95-1e5bc0585e89 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D42 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX42 with D42
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (194431250, 96375000) with pad (203911250, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX42:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX42:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX42:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(194431250, 96375000), (191111250, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX42:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D42:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1917e6cf-acfc-4fe4-aa26-26ef92b1e23e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D43 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX43 with D43
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (215862500, 96375000) with pad (225342500, 93055000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX43:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX43:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX43:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(215862500, 96375000), (212542500, 93055000)]
+[board_modifier.py:264]: Track collide with pad MX43:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D43:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fc620ac9-a2b8-4ff9-a8ef-db98da4a9e6c track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D44 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX44 with D44
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (32506250, 134475000) with pad (41986250, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX44:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX44:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX44:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(32506250, 134475000), (29186250, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX44:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D44:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of f56218f7-c3bc-4468-8673-dc4dd6eb7db4 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D45 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX45 with D45
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (53937500, 134475000) with pad (63417500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX45:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX45:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX45:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(53937500, 134475000), (50617500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX45:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D45:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 87715e08-ac2a-437b-83cd-74ca6707c4bf track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D46 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX46 with D46
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (72987500, 134475000) with pad (82467500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX46:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX46:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX46:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(72987500, 134475000), (69667500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX46:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D46:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5100abbf-6bc8-485a-bc1d-040d9423650e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D47 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX47 with D47
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (92037500, 134475000) with pad (101517500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX47:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX47:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX47:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(92037500, 134475000), (88717500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX47:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D47:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4cc9b385-82e3-4344-b5a5-159f1bd815ae track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D48 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX48 with D48
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (111087500, 134475000) with pad (120567500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX48:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX48:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX48:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(111087500, 134475000), (107767500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX48:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D48:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1049916b-b696-4985-8d71-c7df98004552 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D49 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX49 with D49
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (130137500, 134475000) with pad (139617500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX49:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX49:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX49:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(130137500, 134475000), (126817500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX49:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D49:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 14ba6317-6a4d-4fcf-98f7-815c91744823 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D50 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX50 with D50
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (149187500, 134475000) with pad (158667500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX50:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX50:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX50:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(149187500, 134475000), (145867500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX50:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D50:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 83d594a3-9d70-4ebf-9b25-203ffd5a3490 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D51 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX51 with D51
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (168237500, 134475000) with pad (177717500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX51:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX51:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX51:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(168237500, 134475000), (164917500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX51:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D51:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5e028c7d-c726-4411-919e-15924cde6712 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D52 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX52 with D52
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (187287500, 134475000) with pad (196767500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX52:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX52:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX52:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(187287500, 134475000), (183967500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX52:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D52:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of b54ae8c3-a43e-4764-a73b-dcfcf485c36a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D53 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX53 with D53
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (206337500, 134475000) with pad (215817500, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX53:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX53:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX53:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(206337500, 134475000), (203017500, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX53:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D53:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 6f08be03-ca26-4b7b-9bcb-b2fe49c2007b track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D54 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX54 with D54
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (232531250, 134475000) with pad (242011250, 131155000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX54:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX54:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX54:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(232531250, 134475000), (229211250, 131155000)]
+[board_modifier.py:264]: Track collide with pad MX54:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D54:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 613f9f4e-d9a4-4540-a066-a570574bed8a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D55 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX55 with D55
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (30125000, 153525000) with pad (39605000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX55:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX55:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX55:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(30125000, 153525000), (26805000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX55:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D55:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 6255ae94-208f-4714-b7c6-0313491f8dc0 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D56 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX56 with D56
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (49175000, 153525000) with pad (58655000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX56:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX56:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX56:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(49175000, 153525000), (45855000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX56:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D56:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 89075d41-c889-440d-b664-0d39e6082112 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D57 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX57 with D57
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (68225000, 153525000) with pad (77705000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX57:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX57:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX57:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(68225000, 153525000), (64905000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX57:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D57:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5ecbac09-5a92-4fdc-a9dd-095f24d417d8 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D58 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX58 with D58
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (87275000, 153525000) with pad (96755000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX58:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX58:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX58:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(87275000, 153525000), (83955000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX58:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D58:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 36e40e57-2843-4e5c-9eeb-c03a2fd5f008 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D59 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX59 with D59
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (106325000, 153525000) with pad (115805000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX59:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX59:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX59:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(106325000, 153525000), (103005000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX59:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D59:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ad881a4d-d948-4993-8f19-cdc61b91e197 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D60 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX60 with D60
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (125375000, 153525000) with pad (134855000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX60:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX60:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX60:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(125375000, 153525000), (122055000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX60:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D60:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 52e0843a-9e95-4e87-870d-994abc865ff8 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D61 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX61 with D61
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (144425000, 153525000) with pad (153905000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX61:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX61:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX61:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(144425000, 153525000), (141105000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX61:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D61:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 93aff8de-599e-4cf0-b231-28ad404ae322 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D62 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX62 with D62
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (163475000, 153525000) with pad (172955000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX62:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX62:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX62:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(163475000, 153525000), (160155000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX62:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D62:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 3ef62ef5-3bd5-4c06-8c41-12e21a01c37a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D63 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX63 with D63
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (182525000, 153525000) with pad (192005000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX63:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX63:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX63:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(182525000, 153525000), (179205000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX63:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D63:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fd6fd574-e802-4f92-b911-0356c7fe30fa track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D64 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX64 with D64
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (201575000, 153525000) with pad (211055000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX64:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX64:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX64:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(201575000, 153525000), (198255000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX64:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D64:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5c024244-204f-47ca-b05e-d25c69fe9b65 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D65 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX65 with D65
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (220625000, 153525000) with pad (230105000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX65:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX65:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX65:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(220625000, 153525000), (217305000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX65:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D65:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 93ac6c56-5a13-446f-af63-512a0f9dafd7 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D66 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX66 with D66
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (239675000, 153525000) with pad (249155000, 150205000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX66:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX66:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX66:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(239675000, 153525000), (236355000, 150205000)]
+[board_modifier.py:264]: Track collide with pad MX66:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D66:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a6599915-fbf5-4d82-9110-1b613d6d88ed track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D67 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX67 with D67
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (34887500, 172575000) with pad (44367500, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX67:2
+[board_modifier.py:264]: Track collide with pad MX67:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX67:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(34887500, 172575000), (31567500, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX67:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D67:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5fa786d5-710f-4291-a7af-1fd3144da068 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D68 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX68 with D68
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (58700000, 172575000) with pad (68180000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX68:2
+[board_modifier.py:264]: Track collide with pad MX68:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX68:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(58700000, 172575000), (55380000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX68:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D68:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 381d6ae1-7898-4085-bb50-43bed509ca0e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D69 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX69 with D69
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (77750000, 172575000) with pad (87230000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX69:2
+[board_modifier.py:264]: Track collide with pad MX69:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX69:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(77750000, 172575000), (74430000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX69:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D69:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 8c4130fd-e424-4148-8dd1-0c42a81cf87a track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D70 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX70 with D70
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (96800000, 172575000) with pad (106280000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX70:2
+[board_modifier.py:264]: Track collide with pad MX70:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX70:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(96800000, 172575000), (93480000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX70:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D70:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4dc067d7-c01e-4b1d-bee6-f2710dd8a6e8 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D71 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX71 with D71
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (115850000, 172575000) with pad (125330000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX71:2
+[board_modifier.py:264]: Track collide with pad MX71:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX71:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(115850000, 172575000), (112530000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX71:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D71:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e72cbb9d-80a6-4028-9292-342802301f6b track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D72 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX72 with D72
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (134900000, 172575000) with pad (144380000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX72:2
+[board_modifier.py:264]: Track collide with pad MX72:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX72:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(134900000, 172575000), (131580000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX72:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D72:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 500608bb-79d6-4341-8047-da9470c468bc track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D73 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX73 with D73
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (153950000, 172575000) with pad (163430000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX73:2
+[board_modifier.py:264]: Track collide with pad MX73:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX73:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(153950000, 172575000), (150630000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX73:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D73:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 748a115b-34cf-400a-a50c-22b39f8b8d0d track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D74 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX74 with D74
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (173000000, 172575000) with pad (182480000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX74:2
+[board_modifier.py:264]: Track collide with pad MX74:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX74:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(173000000, 172575000), (169680000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX74:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D74:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5b0209f2-feb3-4848-ac0e-40190749e584 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D75 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX75 with D75
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (192050000, 172575000) with pad (201530000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX75:2
+[board_modifier.py:264]: Track collide with pad MX75:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX75:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(192050000, 172575000), (188730000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX75:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D75:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1f5a5938-dc06-4402-8d5f-76db7698bcf1 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D76 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX76 with D76
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (211100000, 172575000) with pad (220580000, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX76:2
+[board_modifier.py:264]: Track collide with pad MX76:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX76:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(211100000, 172575000), (207780000, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX76:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D76:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 8ad76809-40f5-4d6b-a629-8d92ce5ce01e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D77 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX77 with D77
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (234912500, 172575000) with pad (244392500, 169255000) at 0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX77:2
+[board_modifier.py:264]: Track collide with pad MX77:1
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX77:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(234912500, 172575000), (231592500, 169255000)]
+[board_modifier.py:264]: Track collide with pad MX77:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D77:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 200cc68c-a07c-46fb-b786-a11903ce9e6b track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D78 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX78 with D78
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (37268750, 191625000) with pad (46748750, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX78:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX78:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX78:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(37268750, 191625000), (33948750, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX78:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D78:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 30b3ad99-6561-425b-8a05-ac32094611c5 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D79 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX79 with D79
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (63462500, 191625000) with pad (72942500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX79:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX79:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX79:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(63462500, 191625000), (60142500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX79:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D79:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e2536429-9d72-4a6a-9ba8-8f06fea7b208 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D80 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX80 with D80
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (82512500, 191625000) with pad (91992500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX80:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX80:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX80:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(82512500, 191625000), (79192500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX80:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D80:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 88ece445-b5fa-41dc-8cef-f318e3341657 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D81 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX81 with D81
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (101562500, 191625000) with pad (111042500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX81:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX81:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX81:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(101562500, 191625000), (98242500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX81:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D81:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 42e722d8-76c9-4676-b91b-fe02191bd9fd track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D82 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX82 with D82
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (120612500, 191625000) with pad (130092500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX82:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX82:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX82:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(120612500, 191625000), (117292500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX82:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D82:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1b74c3ac-4a7d-46fe-98a8-68151e59bd25 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D83 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX83 with D83
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (139662500, 191625000) with pad (149142500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX83:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX83:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX83:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(139662500, 191625000), (136342500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX83:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D83:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 38e9b903-7092-4d3b-a0bf-7fe3ad42b2a5 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D84 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX84 with D84
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (158712500, 191625000) with pad (168192500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX84:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX84:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX84:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(158712500, 191625000), (155392500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX84:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D84:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9c0563b6-038a-4acb-b67c-14b6d4c79bbb track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D85 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX85 with D85
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (177762500, 191625000) with pad (187242500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX85:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX85:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX85:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(177762500, 191625000), (174442500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX85:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D85:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c669fe89-66e3-4798-b18c-0c68e93f68f7 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D86 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX86 with D86
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (196812500, 191625000) with pad (206292500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX86:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX86:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX86:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(196812500, 191625000), (193492500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX86:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D86:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 36651f14-d359-453c-a78e-193b78654231 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D87 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX87 with D87
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (215862500, 191625000) with pad (225342500, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX87:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX87:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX87:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(215862500, 191625000), (212542500, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX87:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D87:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 66bedee9-68b2-4fff-97dd-58260f7744a0 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D88 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX88 with D88
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (237293750, 191625000) with pad (246773750, 188305000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX88:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX88:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX88:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(237293750, 191625000), (233973750, 188305000)]
+[board_modifier.py:264]: Track collide with pad MX88:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D88:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 48eb3ae5-e0c1-4a71-b9bd-8593343eb6ec track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D89 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX89 with D89
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (32506250, 210675000) with pad (41986250, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX89:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX89:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX89:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(32506250, 210675000), (29186250, 207355000)]
+[board_modifier.py:264]: Track collide with pad MX89:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D89:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a1e8cc82-96b1-4e6e-936b-4e035ba7b75e track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D90 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX90 with D90
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (56318750, 210675000) with pad (65798750, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX90:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX90:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX90:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(56318750, 210675000), (52998750, 207355000)]
+[board_modifier.py:264]: Track collide with pad MX90:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D90:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 65416ce0-0a7e-4c00-b3fa-46459744b851 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D91 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX91 with D91
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (80131250, 210675000) with pad (89611250, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX91:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX91:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX91:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(80131250, 210675000), (76811250, 207355000)]
+[board_modifier.py:264]: Track collide with pad MX91:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D91:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 2e8ac85c-494a-4c76-9993-9ab0c092e218 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D92 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX92 with D92
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (113468750, 210675000) with pad (122948750, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX92:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX92:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX92:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(113468750, 210675000), (110148750, 207355000)]
+[board_modifier.py:264]: Track collide with pad MX92:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D92:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of cf5027a5-2cc7-43b6-a6b9-f6d683d62fac track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D93 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX93 with D93
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (156331250, 210675000) with pad (165811250, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX93:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX93:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX93:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(156331250, 210675000), (153011250, 207355000)]
+[board_modifier.py:264]: Track collide with pad MX93:
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D93:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fed3b7fa-cbdf-4cbc-9866-b5da3967c004 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D94 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX94 with D94
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (189668750, 210675000) with pad (199148750, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX94:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX94:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX94:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(189668750, 210675000), (186348750, 207355000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D94:2
+[board_modifier.py:264]: Track collide with pad MX94:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 3ea97b15-2c1f-4700-87fe-2f36b4551afe track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D95 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX95 with D95
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (213481250, 210675000) with pad (222961250, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX95:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX95:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX95:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(213481250, 210675000), (210161250, 207355000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D95:2
+[board_modifier.py:264]: Track collide with pad MX95:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ded491e4-8d82-4fba-8e2f-1a0433db7af6 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D96 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX96 with D96
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (237293750, 210675000) with pad (246773750, 207355000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX96:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX96:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX96:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(237293750, 210675000), (233973750, 207355000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D96:2
+[board_modifier.py:264]: Track collide with pad MX96:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 540f598f-7583-4b3c-80f7-271539f0954d track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D97 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX97 with D97
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (32506250, 229725000) with pad (41986250, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX97:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX97:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX97:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(32506250, 229725000), (29186250, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D97:2
+[board_modifier.py:264]: Track collide with pad MX97:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 53dccba7-d4d0-4e18-8988-1b6ed8a64bbc track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D98 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX98 with D98
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (53937500, 229725000) with pad (63417500, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX98:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX98:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX98:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(53937500, 229725000), (50617500, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D98:2
+[board_modifier.py:264]: Track collide with pad MX98:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of af3d199e-6257-45e5-b010-9113c58943c7 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D99 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX99 with D99
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (75368750, 229725000) with pad (84848750, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX99:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX99:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX99:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(75368750, 229725000), (72048750, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D99:2
+[board_modifier.py:264]: Track collide with pad MX99:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e8f2e7cf-7ddd-4270-915d-c6d603b3ac14 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D100 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX100 with D100
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (113468750, 229725000) with pad (122948750, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX100:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX100:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX100:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(113468750, 229725000), (110148750, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D100:2
+[board_modifier.py:264]: Track collide with pad MX100:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 849900fb-d454-47d3-93ae-e38268be218c track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D101 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX101 with D101
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (161093750, 229725000) with pad (170573750, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX101:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX101:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX101:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(161093750, 229725000), (157773750, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D101:2
+[board_modifier.py:264]: Track collide with pad MX101:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of bd0a9ca8-5b58-4426-a8a9-c48b88de5175 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D102 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX102 with D102
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (194431250, 229725000) with pad (203911250, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX102:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX102:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX102:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(194431250, 229725000), (191111250, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D102:2
+[board_modifier.py:264]: Track collide with pad MX102:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c8d128c9-5aab-4177-9862-862b1a4c2a05 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D103 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX103 with D103
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (215862500, 229725000) with pad (225342500, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX103:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX103:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX103:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(215862500, 229725000), (212542500, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D103:2
+[board_modifier.py:264]: Track collide with pad MX103:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 3fbf4cc8-995e-4609-970b-3f6af08df072 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:62]: Searching for D104 footprint in /home/thousandeyed/Documents/Keyboard projects/alpha4/alpha4.kicad_pcb
+[key_placer.py:93]: Routing MX104 with D104
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (237293750, 229725000) with pad (246773750, 226405000) at 0 degree angle
+[board_modifier.py:264]: Track collide with pad MX104:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX104:2
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad MX104:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(237293750, 229725000), (233973750, 226405000)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D104:2
+[board_modifier.py:264]: Track collide with pad MX104:
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1e036d53-ad84-4ed3-b9a3-a2fdd75b5a16 track
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[key_placer.py:149]: Removing dangling tracks
+[key_placer.py:161]: Removing 1e036d53-ad84-4ed3-b9a3-a2fdd75b5a16
+[key_placer.py:161]: Removing 3fbf4cc8-995e-4609-970b-3f6af08df072
+[key_placer.py:161]: Removing c8d128c9-5aab-4177-9862-862b1a4c2a05
+[key_placer.py:161]: Removing bd0a9ca8-5b58-4426-a8a9-c48b88de5175
+[key_placer.py:161]: Removing 849900fb-d454-47d3-93ae-e38268be218c
+[key_placer.py:161]: Removing e8f2e7cf-7ddd-4270-915d-c6d603b3ac14
+[key_placer.py:161]: Removing af3d199e-6257-45e5-b010-9113c58943c7
+[key_placer.py:161]: Removing 53dccba7-d4d0-4e18-8988-1b6ed8a64bbc
+[key_placer.py:161]: Removing 540f598f-7583-4b3c-80f7-271539f0954d
+[key_placer.py:161]: Removing ded491e4-8d82-4fba-8e2f-1a0433db7af6
+[key_placer.py:161]: Removing 3ea97b15-2c1f-4700-87fe-2f36b4551afe
+[key_placer.py:161]: Removing fed3b7fa-cbdf-4cbc-9866-b5da3967c004
+[key_placer.py:161]: Removing cf5027a5-2cc7-43b6-a6b9-f6d683d62fac
+[key_placer.py:161]: Removing 2e8ac85c-494a-4c76-9993-9ab0c092e218
+[key_placer.py:161]: Removing 65416ce0-0a7e-4c00-b3fa-46459744b851
+[key_placer.py:161]: Removing a1e8cc82-96b1-4e6e-936b-4e035ba7b75e
+[key_placer.py:161]: Removing 48eb3ae5-e0c1-4a71-b9bd-8593343eb6ec
+[key_placer.py:161]: Removing 66bedee9-68b2-4fff-97dd-58260f7744a0
+[key_placer.py:161]: Removing 36651f14-d359-453c-a78e-193b78654231
+[key_placer.py:161]: Removing c669fe89-66e3-4798-b18c-0c68e93f68f7
+[key_placer.py:161]: Removing 9c0563b6-038a-4acb-b67c-14b6d4c79bbb
+[key_placer.py:161]: Removing 38e9b903-7092-4d3b-a0bf-7fe3ad42b2a5
+[key_placer.py:161]: Removing 1b74c3ac-4a7d-46fe-98a8-68151e59bd25
+[key_placer.py:161]: Removing 42e722d8-76c9-4676-b91b-fe02191bd9fd
+[key_placer.py:161]: Removing 88ece445-b5fa-41dc-8cef-f318e3341657
+[key_placer.py:161]: Removing e2536429-9d72-4a6a-9ba8-8f06fea7b208
+[key_placer.py:161]: Removing 30b3ad99-6561-425b-8a05-ac32094611c5
+[key_placer.py:161]: Removing 200cc68c-a07c-46fb-b786-a11903ce9e6b
+[key_placer.py:161]: Removing 8ad76809-40f5-4d6b-a629-8d92ce5ce01e
+[key_placer.py:161]: Removing 1f5a5938-dc06-4402-8d5f-76db7698bcf1
+[key_placer.py:161]: Removing 5b0209f2-feb3-4848-ac0e-40190749e584
+[key_placer.py:161]: Removing 748a115b-34cf-400a-a50c-22b39f8b8d0d
+[key_placer.py:161]: Removing 500608bb-79d6-4341-8047-da9470c468bc
+[key_placer.py:161]: Removing e72cbb9d-80a6-4028-9292-342802301f6b
+[key_placer.py:161]: Removing 4dc067d7-c01e-4b1d-bee6-f2710dd8a6e8
+[key_placer.py:161]: Removing 8c4130fd-e424-4148-8dd1-0c42a81cf87a
+[key_placer.py:161]: Removing 381d6ae1-7898-4085-bb50-43bed509ca0e
+[key_placer.py:161]: Removing 5fa786d5-710f-4291-a7af-1fd3144da068
+[key_placer.py:161]: Removing a6599915-fbf5-4d82-9110-1b613d6d88ed
+[key_placer.py:161]: Removing 93ac6c56-5a13-446f-af63-512a0f9dafd7
+[key_placer.py:161]: Removing 5c024244-204f-47ca-b05e-d25c69fe9b65
+[key_placer.py:161]: Removing fd6fd574-e802-4f92-b911-0356c7fe30fa
+[key_placer.py:161]: Removing 3ef62ef5-3bd5-4c06-8c41-12e21a01c37a
+[key_placer.py:161]: Removing 93aff8de-599e-4cf0-b231-28ad404ae322
+[key_placer.py:161]: Removing 52e0843a-9e95-4e87-870d-994abc865ff8
+[key_placer.py:161]: Removing ad881a4d-d948-4993-8f19-cdc61b91e197
+[key_placer.py:161]: Removing 36e40e57-2843-4e5c-9eeb-c03a2fd5f008
+[key_placer.py:161]: Removing 5ecbac09-5a92-4fdc-a9dd-095f24d417d8
+[key_placer.py:161]: Removing 89075d41-c889-440d-b664-0d39e6082112
+[key_placer.py:161]: Removing 6255ae94-208f-4714-b7c6-0313491f8dc0
+[key_placer.py:161]: Removing 613f9f4e-d9a4-4540-a066-a570574bed8a
+[key_placer.py:161]: Removing 6f08be03-ca26-4b7b-9bcb-b2fe49c2007b
+[key_placer.py:161]: Removing b54ae8c3-a43e-4764-a73b-dcfcf485c36a
+[key_placer.py:161]: Removing 5e028c7d-c726-4411-919e-15924cde6712
+[key_placer.py:161]: Removing 83d594a3-9d70-4ebf-9b25-203ffd5a3490
+[key_placer.py:161]: Removing 14ba6317-6a4d-4fcf-98f7-815c91744823
+[key_placer.py:161]: Removing 1049916b-b696-4985-8d71-c7df98004552
+[key_placer.py:161]: Removing 4cc9b385-82e3-4344-b5a5-159f1bd815ae
+[key_placer.py:161]: Removing 5100abbf-6bc8-485a-bc1d-040d9423650e
+[key_placer.py:161]: Removing 87715e08-ac2a-437b-83cd-74ca6707c4bf
+[key_placer.py:161]: Removing f56218f7-c3bc-4468-8673-dc4dd6eb7db4
+[key_placer.py:161]: Removing fc620ac9-a2b8-4ff9-a8ef-db98da4a9e6c
+[key_placer.py:161]: Removing 1917e6cf-acfc-4fe4-aa26-26ef92b1e23e
+[key_placer.py:161]: Removing f51a0538-0dfa-43ed-bd95-1e5bc0585e89
+[key_placer.py:161]: Removing 0afb9c18-470b-4269-8e07-38e5edf5c7f4
+[key_placer.py:161]: Removing 1e8b93c9-727d-4dc5-8f8d-381be64930c1
+[key_placer.py:161]: Removing 8916194a-b333-4447-b94b-d713d3f57156
+[key_placer.py:161]: Removing 5d77f913-3d48-4860-a49a-2aa092f42693
+[key_placer.py:161]: Removing a9f884e6-c715-4d19-9886-a41c1ede4202
+[key_placer.py:161]: Removing ec52e519-ac92-4389-91a2-2e967e8c84c6
+[key_placer.py:161]: Removing fb1cc28f-75ef-4daa-ba3f-9fba056afb74
+[key_placer.py:161]: Removing 7efbb0b1-b42d-4488-ba07-6d33843132ef
+[key_placer.py:161]: Removing 4f4efd5c-2645-40bd-b15e-7e11da2cd537
+[key_placer.py:161]: Removing d6ebd443-fb81-4c67-8f6e-6e1320d14f0b
+[key_placer.py:161]: Removing 31f1e7e5-42f2-436c-a4cb-60f615c4185a
+[key_placer.py:161]: Removing 473d934e-99ac-4ddb-b5d0-444b00c46297
+[key_placer.py:161]: Removing 0bfa54b5-69d8-415d-aa49-8718bdb2fa3a
+[key_placer.py:161]: Removing 6b63e087-2727-4f9a-9670-87390400c54e
+[key_placer.py:161]: Removing c69761d5-e7d0-4225-8d4e-31eb84254af8
+[key_placer.py:161]: Removing 0e49d49b-7180-49bc-8437-8bacf3a0aa19
+[key_placer.py:161]: Removing 2374d752-ccff-4ebc-9eda-fc84a2b9e693
+[key_placer.py:161]: Removing 38bf8553-fa11-4f30-b75e-b192e6b62394
+[key_placer.py:161]: Removing 9cb85385-ec9f-45bb-9692-efb4e9815bff
+[key_placer.py:161]: Removing e06e4aaa-5335-4895-95f5-df29bb5ea9ba
+[key_placer.py:161]: Removing 195ef2c7-1cf4-4f71-b206-37ce433db860
+[key_placer.py:161]: Removing f20ae5ff-270f-47f2-8270-29835037d301
+[key_placer.py:161]: Removing 9d0c4d8e-2bc8-461e-aae1-3fd1e3d87fa3
+[key_placer.py:161]: Removing dd545b7a-d790-45e9-b207-ff5b94daecf1
+[key_placer.py:161]: Removing a77fc4ca-16e5-4464-bff0-b5842c90bd73
+[key_placer.py:161]: Removing 9b017a89-cbb0-48e7-a83f-25ff48c66dc4
+[key_placer.py:161]: Removing 38dca275-bc56-488e-a44e-3f6a3f0eb1c4
+[key_placer.py:161]: Removing 4ef6e1f9-cbb9-403e-b202-117e88bbdde1
+[key_placer.py:161]: Removing c52ba2c2-b87b-4655-8ba4-be615883b9c3
+[key_placer.py:161]: Removing 2f7cf394-7c92-4522-9da3-4036e58f5a60
+[key_placer.py:161]: Removing 6a016bc1-fd24-467e-88cb-7fc595bef87f
+[key_placer.py:161]: Removing 7b43ee4b-c35b-4327-a4a4-d6e336e90446
+[key_placer.py:161]: Removing eed88928-37dc-4846-a914-7a80bcd30f21
+[key_placer.py:161]: Removing 369cf570-54fe-41af-b45b-273c66f0d2cc
+[key_placer.py:161]: Removing cc310344-c3bf-4f71-8ddb-473fcf4b5243
+[key_placer.py:161]: Removing 2bb85ece-8978-44fb-b903-8df8c77877be
+[key_placer.py:161]: Removing f9971f34-8ddf-4ec5-9e23-29caedde8e8a
+[key_placer.py:161]: Removing fb2268a0-b59a-4a93-8b99-e17520474a1f
+[key_placer.py:161]: Removing ff04dd0e-e576-48bf-a562-af37a8cf154e
+[key_placer.py:161]: Removing 7d4d51e1-22f7-4d5d-b23b-afaa6a09cf1f
+[key_placer.py:149]: Removing dangling tracks
