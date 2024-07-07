@@ -32,8 +32,8 @@ I provide all the production files you will need in order to assemble the keyboa
 | ~45   | 1N4148 - SOD-123     | Diodes                                    |
 | 3     | LED 3mm              | Choose red, yellow (orange), and green        |
 | 1     | MSK-12C02            | Power switch                              | 
-| 1     | JST 1.25mm pitch     | Battery connector, 2pin (optional). I used S2B-PH-K-S(LF)(SN)        |
-| 1     | 3.7V LiPo            | Battery (optional)                        |
+| 1     | JST 1.25mm pitch     | Battery connector, 2pin. I used S2B-PH-K-S(LF)(SN)        |
+| 1     | 3.7V LiPo            | Battery                     |
 | ~45   | KS33 or KS27         | Gateron Low Profile switches              |
 | ~45   | Keycaps              | MX-compatible keycaps of your choice      |
 
