@@ -45,7 +45,7 @@ In [source](source/) directory you will find the source files for the PCB and th
 
 ## Gallery
 
-![](img/shiva assort.jpg)
+![](img/shiva_assort.jpg)
 ![](img/PXL_20240621_071457859.PORTRAIT.jpg)
 ![](img/PXL_20240621_071651733.PORTRAIT.jpg)
 ![](img/PXL_20240621_071921859.PORTRAIT.jpg)
