@@ -5,7 +5,7 @@ A 12U 40% keyboard supporting multiple layouts, offset space bar row, and LEDs.
 
 ## About
 
-This keyboard supports as many different layouts as possible. Currently supported are: ortho, alpha stagger, uniform 0.25U stagger, normal stagger, plus multiple space row configurations. After all, you got 5 PCBs. Note: only alpha stagger is tested.
+This keyboard supports as many different layouts as possible. Currently supported are: ortho, alpha stagger, uniform 0.25U stagger, normal stagger, plus multiple space row configurations. After all, you got 5 PCBs.
 - designed around Gateron KS27/KS33 low profile switches.
 - rotary encoder support.
 - bluetooth connection only. USB connection possible with an appropriate case.
@@ -45,6 +45,7 @@ In [source](source/) directory you will find the source files for the PCB and th
 
 ## Gallery
 
+![](img/shiva assort.jpg)
 ![](img/PXL_20240621_071457859.PORTRAIT.jpg)
 ![](img/PXL_20240621_071651733.PORTRAIT.jpg)
 ![](img/PXL_20240621_071921859.PORTRAIT.jpg)
